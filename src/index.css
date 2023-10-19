@@ -4,8 +4,8 @@
 
 
 body {
-    font-family:  sans ;
-    font-weight:bold;
+    font-family:   sans-serif ;
+    /* font-weight:bold; */
     background-color: #F5F5F5;
     /* xs:font-serif ;
      sm:font-sans;
@@ -102,4 +102,38 @@ table button{
         transform: translateX(-200px);  
       }
 }
+ 
 
+/* text */
+  .animation1 {
+    /* border-right: solid 3px rgba(1, 1, 1, 0.75); */
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Times New Roman', Times, serif;  
+    /* font-size: 80px; */
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.858);
+    text-shadow: 6px 1px rgba(77, 75, 75, 0.846);
+  }
+  
+  /* Animation */
+  .animation2 {
+    animation: animated-text 4s steps(35,end) 1s 1 normal both,
+               animated-cursor 600ms steps(35,end) infinite;
+  }
+  
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width:0;}
+    to{width: 770px;}
+  }
+  
+  /* cursor animations */
+  
+  @keyframes animated-cursor{
+    from{border-right-color: rgba(0, 0, 0, 0.75);}
+    to{border-right-color: transparent;}
+  }
+
+ 

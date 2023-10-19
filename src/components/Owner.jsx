@@ -7,7 +7,7 @@ export default function Owner() {
       {/* <!-- owner section  --> */}
   <section>
     <div>
-      <div className="font-semibold text-[50px] pl-40 xs:text-[30px]  xs:pl-20">Our Specialist</div>
+      <div className="font-semibold text-[50px] pl-40 xs:text-[30px]  xs:pl-20"> Our Specialist</div>
       <div className="shadow-xl rounded-xl h-auto pl-36 flex items-center xs:grid xs:pl-4 sm:grid md:flex">
         <div className="m-[12px] rounded-xl shadow-gray-700 ">
           <img src="https://rjat-production.onrender.com/uploads/1693393943738--imgK.jpg" alt="Dr.Renu" height="300px"
