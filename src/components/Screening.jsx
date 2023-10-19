@@ -9,35 +9,42 @@ export default function Screening() {
       {/* <!-- screening section --> */}
       <section>
         <div className="flex justify-center mb-[50px]  ">
-          <h1 className="text-[50px] font-bold">We Care</h1>
+          <h1 className="text-[50px] font-bold text-slate-600">We Care</h1>
         </div>
 
-        <div className="flex justify-center ">
-          <div className="grid grid-cols-1 mx-[50px] gap-0 gap-y-0 max-w-screen-2xl pt-0 md:grid-cols-3 min-h-screen ">
-            <div className="w-[300px] bg-slate-200 flex flex-col items-center justify-center">
-              <h1 className="text-[25px] font-bold">24/7 Trauma care</h1>
-              <p className="px-[10px]">
+        <div className="">
+          <div className="grid grid-cols-1 mx-[50px] gap-0 gap-x-2 max-w-screen-2xl md:grid-cols-3">
+            <div className="w-[400px] bg-slate-200 text-center py-[20px] h-[300px] flex flex-col justify-center hover:bg-slate-300">
+              <h1 className="text-[25px] font-bold text-slate-600">
+                24/7 Trauma care
+              </h1>
+              <p className="px-[10px] text-slate-400">
                 Works around the clock with a team of experts to treat
                 individuals with numerous injuries.
               </p>
             </div>
             <div>
-              <img src={img1} alt="stheso" height="400px" width="400px" />
+              <img src={img1} alt="stheso" height="300px" width="400px" />
             </div>
-            <div className="w-[300px] bg-slate-200 flex flex-col items-center justify-center">
-              <h1 className="text-[25px] font-bold">Intensive care</h1>
-              <p className="px-[10px] ">
+            <div className="w-[400px] bg-slate-200  items-center px-[5px] h-[300px] flex flex-col justify-center hover:bg-slate-300">
+              <h1 className="text-[25px] font-bold text-slate-600">
+                Intensive care
+              </h1>
+              <p className="px-[10px] text-slate-400 text-center">
                 The intensive care unit is outfitted with specifically built
                 beds, a central oxygen supply, and contemporary ventilators, all
                 of which are handled by skilled intensivists.
               </p>
             </div>
+
             <div>
               <img src={img2} alt="hosp" height="400px" width="400px" />
             </div>
-            <div className="w-[300px] bg-slate-200 flex flex-col items-center justify-center">
-              <h1 className="text-[25px] font-bold">Patient care</h1>
-              <p className="px-[10px]">
+            <div className="w-[400px] bg-slate-200 text-center px-[5px] h-[275px] flex flex-col justify-center hover:bg-slate-300">
+              <h1 className="text-[25px] font-bold text-slate-600">
+                Patient care
+              </h1>
+              <p className="px-[10px] text-slate-400">
                 Our group of skilled medical professionals and qualified nurses
                 ensured that the patients would receive a wide range of medical
                 services.
