@@ -16,11 +16,13 @@ import Trauma from "./components/Trauma";
 
 
 
+
 function App() {
   return (
     
     <>
       <Nav/>
+      
          <Routes >
          <Route  path="/" element={<Hero/>} />
          <Route  path="/trauma" element={<Trauma />} />

@@ -5,31 +5,28 @@ import emailLogo from "../logos/e-mail icon.png";
 import instaLogo from "../logos/insta logo.png";
 import facebookLogo from "../logos/facebook logo.png";
 import xLogo from "../logos/twitter logo.png";
-import menu from "../logos/menu logo.png"
-import {Link} from "react-router-dom";
- 
-
+import menu from "../logos/menu logo.png";
+import { Link } from "react-router-dom";
 
 export default function Nav() {
-  window.addEventListener('DOMContentLoaded',()=>{
-    const menuBtn = document.querySelector('#menu-btn')
-    const dropdown = document.querySelector('#dropdown')
-   
-    menuBtn.addEventListener('click',()=>{
-        // if(dropdown.classList.contains('hidden')){
-        //     dropdown.classList.remove('hidden');
-        //     dropdown.classList.add('flex');
-        // }else{
-        //     dropdown.classList.remove('flex')
-        //     dropdown.classList.add('hidden')
-        // }
-        dropdown.classList.toggle('hidden')
-        console.log("Clik")
+  window.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.querySelector("#menu-btn");
+    const dropdown = document.querySelector("#dropdown");
 
-        dropdown.classList.toggle('flex')
+    menuBtn.addEventListener("click", () => {
+      // if(dropdown.classList.contains('hidden')){
+      //     dropdown.classList.remove('hidden');
+      //     dropdown.classList.add('flex');
+      // }else{
+      //     dropdown.classList.remove('flex')
+      //     dropdown.classList.add('hidden')
+      // }
+      dropdown.classList.toggle("hidden");
+      console.log("Clik");
 
-    })
-})
+      dropdown.classList.toggle("flex");
+    });
+  });
   return (
     <div>
       <section>
@@ -43,10 +40,10 @@ export default function Nav() {
             />
           </h1>
           <div className="grid font-semibold xs:flex sm:flex lg:grid">
-            <div className="pt-3  font-semibold  xs:hidden">
+            <div className="pt-3  font-semibold  xs:hidden xs:font-bold xs: sm:text-lg">
               RENU JAGDISH DIAGNOSTIC AND
             </div>
-            <div className=" pl-3 font-semibold sm:text-lg:pl-0  sm:pt-3 xs:hidden">
+            <div className="font-semibold sm:text-lg:pl-0 xs:hidden xs:font-bold xs: sm:text-lg">
               {" "}
               TRAUMA CENTRE
             </div>
@@ -80,18 +77,13 @@ export default function Nav() {
       </section>
 
       {/* <!-- nav section --> */}
-      <nav className="bg-slate-200 p-1 text-black sm:pl-0 ">
+      <nav className="bg-slate-200 p-1 text-slate-600 sm:pl-0 ">
         <div className="container mx-auto flex-wrap ">
           <button
             className="inline-flex items-center justify-center text-white border h-10 w-10 rounded outline-none focus:outline-none sm:hidden"
             id="menu-btn"
           >
-            <img
-              src={menu}
-              alt="menu logo"
-              height="40px"
-              width="40px"
-            />
+            <img src={menu} alt="menu logo" height="40px" width="40px" />
           </button>
 
           <div
@@ -99,14 +91,15 @@ export default function Nav() {
             id="dropdown"
           >
             <ul className="flex xs:flex-col">
-              <li className="mx-10 pl-10 text-2xl rounded-lg  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0 ">
-                <Link to="/"
+              <li className="mx-10 pl-10 text-2xl rounded-lg  p-1 text-slate-600 xs:bg-slate-600 xs:rounded-lg sm:mx-0 ">
+                <Link
+                  to="/"
                   className="roundedhover:bg-blue-100   duration-500  hover:bg-blue-100 "
                 >
                   Home
                 </Link>
               </li>
-              <li className="mx-10 pl-10 text-2xl relative p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0 group">
+              <li className="mx-10 pl-10 text-2xl relative p-1 text-slate-600 xs:bg-slate-200 xs:rounded-lg sm:mx-0 group">
                 <p className=" rounded-lg hover:bg-blue-100   duration-500 cursor-pointer">
                   {" "}
                   Orthopaedic Specialties
@@ -114,34 +107,34 @@ export default function Nav() {
 
                 <ul className="absolute  z-[1] rounded-lg p-2 w-52 bg-slate-200 opacity-90 left-0 hidden group-hover:block">
                   <li className="mx-10 pl-10 text-xl  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
-                    <Link to="/trauma"
+                    <Link
+                      to="/trauma"
                       className="rounded-lg hover:bg-blue-100 duration-500 p-1"
-                      
                     >
                       Trauma
                     </Link>
                   </li>
                   <li className="mx-10 pl-10 text-xl  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
-                    <Link to="/physiotherapy"
+                    <Link
+                      to="/physiotherapy"
                       className="rounded-lg hover:bg-blue-100 duration-500  p-1"
-                      
                     >
                       Physiotherapy
                     </Link>
                   </li>
                   <li className="mx-10 pl-10 text-xl  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
-                    <Link to="/sonography"
+                    <Link
+                      to="/sonography"
                       className="rounded-lg hover:bg-blue-100 duration-500 p-1"
-                      
                     >
                       {" "}
                       Sonography
                     </Link>
                   </li>
                   <li className="mx-10 pl-10 text-xl  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
-                    <Link to="/gynocology"
+                    <Link
+                      to="/gynocology"
                       className="rounded-lg hover:bg-blue-100 duration-500 p-1"
-                      
                     >
                       Gynecology
                     </Link>
@@ -154,17 +147,17 @@ export default function Nav() {
                 </p>
                 <ul className="absolute z-[1] rounded-lg p-2 w-56 bg-slate-200 opacity-90 left-0 hidden group-hover:block">
                   <li className="mx-10 pl-10 text-xl  p-1 xs:bg-slate-600 xs:rounded-lg sm:mx-0">
-                    <Link to="/Rprofile"
+                    <Link
+                      to="/Rprofile"
                       className="rounded-lg hover:bg-blue-100 duration-500  p-1"
-                      
                     >
                       DR. Renu Garkoti
                     </Link>
                   </li>
                   <li className="mx-10 pl-10 text-xl  p-1 xs:bg-slate-600 xs:rounded-lg sm:mx-0">
-                    <Link to="/Jprofile"
+                    <Link
+                      to="/Jprofile"
                       className="rounded-lg hover:bg-blue-100 duration-500  p-1"
-                    
                     >
                       DR. J.C Garkoti
                     </Link>
@@ -173,17 +166,17 @@ export default function Nav() {
               </li>
 
               <li className="mx-10 pl-10 text-2xl  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0 ">
-                <Link to="/gallery"
+                <Link
+                  to="/gallery"
                   className="rounded-lghover:bg-blue-100  duration-500 hover:bg-blue-100 "
-                 
                 >
                   Gallery
                 </Link>
               </li>
               <li className="mx-10 pl-10 text-2xl  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0">
-                <Link to="/contact"
+                <Link
+                  to="/contact"
                   className="rounded-lghover:bg-blue-100  duration-500 hover:bg-blue-100"
-                 
                 >
                   Contact Us
                 </Link>
@@ -191,9 +184,9 @@ export default function Nav() {
 
               {/* <!-- changes --> */}
               <li className="mx-10 pl-10 text-2xl   p-1  xs:rounded-lg sm:mx-0 animate-pulse">
-                <Link to="/appointment"
+                <Link
+                  to="/appointment"
                   className="rounded-lg  p-1 bg-blue-300 px-3 hover:bg-blue-100 duration-500"
-                   
                 >
                   Book Appointment
                 </Link>
@@ -202,7 +195,6 @@ export default function Nav() {
           </div>
         </div>
       </nav>
-      
     </div>
   );
 }
