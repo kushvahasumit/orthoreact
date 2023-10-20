@@ -1,5 +1,5 @@
 import React from 'react'
-import machin from "../images/machin.jpg"
+import machin from "../images/machine.jpg"
 
 export default function Jprofile() {
     return (

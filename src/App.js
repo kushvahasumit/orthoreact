@@ -34,9 +34,8 @@ function App() {
          <Route  path="/gallery" element={<Gallery />} />
          <Route  path="/contact" element={<Contact />} />
          <Route  path="/appointment" element={<Appointment />} />
-
        </Routes>
-     
+      
       <Footer/>
     </>
     

@@ -1,5 +1,5 @@
 import React from 'react'
-import jointAndBone from '../images/joint and bone.jpg'
+import jointAndBone from '../images/joint and bones.jpg'
 
 export default function Physiotherapy() {
   return (

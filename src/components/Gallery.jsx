@@ -1,5 +1,5 @@
 import React from 'react'
-import gall from "../images/gall.jpg"
+import gall from "../images/galllllary.jpg"
 
 export default function Gallery() {
   return (
