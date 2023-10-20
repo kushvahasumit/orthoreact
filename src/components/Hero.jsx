@@ -46,7 +46,6 @@ export default function Hero() {
       <Screening />
       <Video />
       <Emergency />
-      <Owner />
     </div>
   );
 }
