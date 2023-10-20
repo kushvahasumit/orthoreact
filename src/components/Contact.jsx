@@ -1,5 +1,5 @@
 import React from 'react'
-import glucose from "../logos/glucose.jpg"
+import glucose from "../images/glucosee.jpg"
 import phoneLogo from "../logos/phone icon.png";
 import emailLogo from "../logos/e-mail icon.png";
 import location from "../logos/location logo.png"

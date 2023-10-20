@@ -7,6 +7,7 @@ import Video from "./Video";
 import Owner from "./Owner";
 import NavMarQ from "./NavMarQ";
 import vid from "../vid/vid2.mp4";
+import Crousal from "./Crousal";
 
 export default function Hero() {
   return (
@@ -42,7 +43,7 @@ export default function Hero() {
       </section>
 
       <Card />
-
+      <Crousal/>
       <Screening />
       <Video />
       <Emergency />

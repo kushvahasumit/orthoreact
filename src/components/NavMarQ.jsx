@@ -4,7 +4,7 @@ import React from 'react'
 export default function NavMarQ() {
   return (
     <div>
-        <marquee behavior="scroll" direction="left" scrollamount="4" className="">
+        <marquee behavior="scroll" direction="left" scrollamount="4" >
        <div className='pt-1'>
          <strong>Latest News:</strong> <span className=" pl-10 "> "Join us for our Annual Orthopedic Conference  " </span>
          <span className='pl-10'>"Free Treatment for Ayushman and Golden Card Holders"</span>

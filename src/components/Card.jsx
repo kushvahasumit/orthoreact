@@ -12,7 +12,7 @@ export default function Card() {
             Orthodeadic Specialist
           </h1>
           <h4 className="text-[30px] font-normal xs:text-[20px] xs:pl-4 text-slate-600">
-            Welcome to RJ Hospital, The best Ortho hospital in Pithoragarh
+          The best Ortho hospital in Pithoragarh
           </h4>
         </div>
         <div className=" items-center py-[60px]">

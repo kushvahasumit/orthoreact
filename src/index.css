@@ -131,9 +131,44 @@ table button{
   
   /* cursor animations */
   
-  @keyframes animated-cursor{
-    from{border-right-color: rgba(0, 0, 0, 0.75);}
-    to{border-right-color: transparent;}
-  }
+  .float {
+    margin-top: 25px;
+}
 
- 
+.marquee-container {
+    position: absolute;
+    /* top: 70%; */
+    left: 0;
+    width: 100%;
+    padding-top: 50px;
+    transform: translateY(-50%);
+}
+
+
+.marquee {
+    display: inline-flex;
+    /* font-size: 48px; */
+    
+    /* scale: 2; */
+    white-space: nowrap;
+    position: absolute;
+    /* overflow-x: hidden; */
+    left: 0;
+    animation: moveSlideshow -500ms linear infinite;
+
+}
+
+
+.marquee i {
+    margin: 10px 30px;
+    width: 70px;
+    background: #e8e8e8;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+@keyframes moveSlideshow {
+    50% { 
+        transform: translateX(-300px);  
+      }
+}
