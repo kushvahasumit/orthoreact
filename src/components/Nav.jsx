@@ -44,7 +44,6 @@ export default function Nav() {
               RENU JAGDISH DIAGNOSTIC AND
             </div>
             <div className="font-semibold sm:text-lg:pl-0 xs:hidden xs:font-bold xs: sm:text-lg">
-              {" "}
               TRAUMA CENTRE
             </div>
           </div>
@@ -94,47 +93,46 @@ export default function Nav() {
               <li className="mx-10 pl-10 text-2xl rounded-lg  p-1 text-slate-600 xs:bg-slate-600 xs:rounded-lg sm:mx-0 ">
                 <Link
                   to="/"
-                  className="roundedhover:bg-blue-100   duration-500  hover:bg-blue-100 "
+                  className="roundedhover:bg-blue-100 rounded-md duration-500 p-1 hover:bg-indigo-300 "
                 >
                   Home
                 </Link>
               </li>
               <li className="mx-10 pl-10 text-2xl relative p-1 text-slate-600 xs:bg-slate-200 xs:rounded-lg sm:mx-0 group">
-                <p className=" rounded-lg hover:bg-blue-100   duration-500 cursor-pointer">
-                  {" "}
+                <p className=" rounded-lg hover:bg-indigo-300 duration-500 p-1 cursor-pointer">
                   Orthopaedic Specialties
                 </p>
 
-                <ul className="absolute  z-[1] rounded-lg p-2 w-52 bg-slate-200 opacity-90 left-0 hidden group-hover:block">
-                  <li className="mx-10 pl-10 text-xl  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
+                <ul className="absolute  z-[1] rounded-lg p-2 w-52 bg-slate-200 opacity-80 left-0 hidden group-hover:block">
+                  <li className="mx-10 pl-10 text-xl py-3 xs:bg-slate-600 xs:rounded-lg sm:mx-0">
                     <Link
                       to="/trauma"
-                      className="rounded-lg hover:bg-blue-100 duration-500 p-1"
+                      className="rounded-lg hover:bg-indigo-300 duration-500 p-2"
                     >
                       Trauma
                     </Link>
                   </li>
-                  <li className="mx-10 pl-10 text-xl  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
+                  <li className="mx-10 pl-10 text-xl py-3  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
                     <Link
                       to="/physiotherapy"
-                      className="rounded-lg hover:bg-blue-100 duration-500  p-1"
+                      className="rounded-lg hover:bg-indigo-300  duration-500  p-1"
                     >
                       Physiotherapy
                     </Link>
                   </li>
-                  <li className="mx-10 pl-10 text-xl  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
+                  <li className="mx-10 pl-10 text-xl py-3  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
                     <Link
                       to="/sonography"
-                      className="rounded-lg hover:bg-blue-100 duration-500 p-1"
+                      className="rounded-lg hover:bg-indigo-300  duration-500 p-1"
                     >
                       {" "}
                       Sonography
                     </Link>
                   </li>
-                  <li className="mx-10 pl-10 text-xl  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
+                  <li className="mx-10 pl-10 text-xl py-3  xs:bg-slate-600 xs:rounded-lg sm:mx-0">
                     <Link
                       to="/gynocology"
-                      className="rounded-lg hover:bg-blue-100 duration-500 p-1"
+                      className="rounded-lg hover:bg-indigo-300  duration-500 p-1"
                     >
                       Gynecology
                     </Link>
@@ -142,24 +140,24 @@ export default function Nav() {
                 </ul>
               </li>
               <li className="mx-10 pl-10 text-2xl    xs:bg-slate-200 relative xs:rounded-lg sm:mx-0 group">
-                <p className="rounded-lghover:bg-blue-100 hover:bg-blue-100 p-1  duration-500 cursor-pointer">
+                <p className="rounded-lg over:bg-blue-100 hover:bg-indigo-300 p-1  duration-500 cursor-pointer">
                   Dr Profile
                 </p>
-                <ul className="absolute z-[1] rounded-lg p-2 w-56 bg-slate-200 opacity-90 left-0 hidden group-hover:block">
+                <ul className="absolute z-[1] rounded-lg p-2 w-56 bg-slate-200 opacity-80 left-0 hidden group-hover:block">
                   <li className="mx-10 pl-10 text-xl  p-1 xs:bg-slate-600 xs:rounded-lg sm:mx-0">
                     <Link
                       to="/Rprofile"
-                      className="rounded-lg hover:bg-blue-100 duration-500  p-1"
+                      className="rounded-lg hover:bg-indigo-300 duration-500 "
                     >
-                      DR. Renu Garkoti
+                      Dr. Renu Garkoti
                     </Link>
                   </li>
-                  <li className="mx-10 pl-10 text-xl  p-1 xs:bg-slate-600 xs:rounded-lg sm:mx-0">
+                  <li className="mx-10 pl-10 text-xl py-[10px] xs:bg-slate-600 xs:rounded-lg sm:mx-0">
                     <Link
                       to="/Jprofile"
-                      className="rounded-lg hover:bg-blue-100 duration-500  p-1"
+                      className="rounded-lg hover:bg-indigo-300 duration-500  p-1"
                     >
-                      DR. J.C Garkoti
+                      Dr. J.C Garkoti
                     </Link>
                   </li>
                 </ul>
@@ -168,7 +166,7 @@ export default function Nav() {
               <li className="mx-10 pl-10 text-2xl  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0 ">
                 <Link
                   to="/gallery"
-                  className="rounded-lghover:bg-blue-100  duration-500 hover:bg-blue-100 "
+                  className="rounded-lg hover:bg-indigo-300 p-1 duration-500"
                 >
                   Gallery
                 </Link>
@@ -176,7 +174,7 @@ export default function Nav() {
               <li className="mx-10 pl-10 text-2xl  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0">
                 <Link
                   to="/contact"
-                  className="rounded-lghover:bg-blue-100  duration-500 hover:bg-blue-100"
+                  className="rounded-lg hover:bg-indigo-300  p-1 duration-500"
                 >
                   Contact Us
                 </Link>
@@ -186,7 +184,7 @@ export default function Nav() {
               <li className="mx-10 pl-10 text-2xl   p-1  xs:rounded-lg sm:mx-0 animate-pulse">
                 <Link
                   to="/appointment"
-                  className="rounded-lg  p-1 bg-blue-300 px-3 hover:bg-blue-100 duration-500"
+                  className="rounded-lg  p-1 bg-indigo-300 px-3 hover:bg-indigo-100 duration-500"
                 >
                   Book Appointment
                 </Link>
