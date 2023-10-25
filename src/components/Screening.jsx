@@ -8,7 +8,7 @@ export default function Screening() {
     <div>
       {/* <!-- screening section --> */}
       <section>
-        <div className="flex justify-center mb-[50px]  ">
+        <div className="flex justify-center mb-[20px] sm:mb-[30px]  ">
           <h1 className="text-[50px] font-bold text-slate-600">We Care</h1>
         </div>
 
@@ -18,7 +18,7 @@ export default function Screening() {
               <h1 className="text-[25px] font-bold text-slate-600">
                 24/7 Trauma care
               </h1>
-              <p className="px-[10px] text-slate-400">
+              <p className="px-[10px] text-slate-500">
                 Works around the clock with a team of experts to treat
                 individuals with numerous injuries.
               </p>
@@ -30,7 +30,7 @@ export default function Screening() {
               <h1 className="text-[25px] font-bold text-slate-600">
                 Intensive care
               </h1>
-              <p className="px-[10px] text-slate-400 text-center">
+              <p className="px-[10px] text-slate-500 text-center">
                 The intensive care unit is outfitted with specifically built
                 beds, a central oxygen supply, and contemporary ventilators, all
                 of which are handled by skilled intensivists.
@@ -44,7 +44,7 @@ export default function Screening() {
               <h1 className="text-[25px] font-bold text-slate-600">
                 Patient care
               </h1>
-              <p className="px-[10px] text-slate-400">
+              <p className="px-[10px] text-slate-500">
                 Our group of skilled medical professionals and qualified nurses
                 ensured that the patients would receive a wide range of medical
                 services.

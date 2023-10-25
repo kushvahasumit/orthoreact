@@ -11,9 +11,9 @@ import copyRight from "../logos/copyright icon.png"
 export default function Footer() {
     return (
       <div>
-        <section className="pt-5 ">
+        <section className="pt-0 sm:pt-5  ">
           <footer className=" ">
-            <div className="flex pl-3 ">
+            <div className="flex pl-0 p-2 sm:pl-3 ">
               <h1 className=" m-4  rounded-xl text-6xl w-48 h-10 xs:hidden">
                 
                 <img src={hospLogo} alt="Hospital logo" />
@@ -33,7 +33,7 @@ export default function Footer() {
                   joint specialization.
                 </div>
               </div>
-              <div className="pl-5 xs:hidden">
+              <div className="pl-8 xs:hidden">
                 <h5 className="text-2xl pt-4">Useful links</h5>
                 <ul className="grid">
                   <li className="pt-2 hover:underline-offset-4 hover:text-xl">
@@ -55,7 +55,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="pl-8 xs:pl-10">
+              <div className="pl-10 xs:pl-10">
                 <h5 className="text-2xl pt-4">Reach us</h5>
 
                 <div>
@@ -107,7 +107,7 @@ export default function Footer() {
                       <img src={emailLogo} alt="e-mail logo" width="35px" />
                       <div className="pl-3 pt-2 font-semibold hover:scale-110">
                         <a href="mailto:techjunkies@gmail.com">
-                          <p>samay</p>
+                          <p>Ksemya</p>
                         </a>
                       </div>
                     </div>

@@ -5,15 +5,15 @@ import Image from "../images/pic3.jpg";
 export default function Emergency() {
   return (
     <>
-      <div className="flex flex-wrap justify-between py-[30px] px-[50px] text-slate-600 sm:h-[500px]">
+      <div className="flex flex-wrap justify-between py-[30px] px-[20px]  text-slate-600   sm:px-[50px]">
         <div>
           <div className="text-left ">
-            <h1 className="text-[60px] font-bold sm:text-[20px]">24/7</h1>
-            <h1 className="text-[60px] font-bold">Emergency Medical Care</h1>
-            <h1 className="text-[30px] font-medium text-slate-400">
+            <h1 className="text-[30px] sm:text-[60px] font-bold ">24x7</h1>
+            <h1 className="text-[40px] w-auto sm:text-[50px] font-bold">Emergency Medical Care</h1>
+            <h1 className="text-[25px] sm:text-[40px] font-medium text-slate-400">
               with 24 hour access
             </h1>
-            <h3 className="text-[30px] font-medium text-slate-400">
+            <h3 className="text-[25px] sm:text-[40px] font-medium text-slate-400">
               an emergency assist
             </h3>
           </div>
@@ -21,9 +21,9 @@ export default function Emergency() {
             <div className="pr-[10px] flex items-center">
               <img src={phoneLogo} alt="" />
             </div>
-            <div className="text-center font-medium">
-              <h3 className="text-xl ">05964-227933</h3>
-              <h3 className="text-xl mt-[7px]">+91 8865037172</h3>
+            <div className="text-center   font-medium">
+               <h3 className="text-xl text-[25px] sm:text-[30px] mt-[7px]">+91 8865037172</h3>
+              <h3 className="text-xl text-[25px] pt-2 sm:text-[30px]">05964-227933</h3>
             </div>
           </div>
         </div>
@@ -31,9 +31,7 @@ export default function Emergency() {
           <img
             src={Image}
             alt=""
-            height="400px"
-            width="550px"
-            className="rounded-2xl"
+            className="rounded-2xl h-50 w-auto sm:w-[600px] sm:h-[400px] "
           />
         </div>
       </div>
