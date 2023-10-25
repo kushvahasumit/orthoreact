@@ -4,7 +4,6 @@ import Card from "./Card";
 import Screening from "./Screening";
 import Emergency from "./Emergency";
 import Video from "./Video";
-import Owner from "./Owner";
 import NavMarQ from "./NavMarQ";
 import vid from "../vid/vid2.mp4";
 import Crousal from "./Crousal";
@@ -16,14 +15,11 @@ export default function Hero() {
       <NavMarQ />
       <section>
         <div className="relative flex-wrap">
-          <div>
-            {/* <h1 className="absolute  pl-12 text-light-green top-16 font-semibold p-6 xs:text-[20px] sm:text-[40px] xs:top-2 xs:pl-3 md:text-4xl animation1 animation2  ">
-              Welcome To
-            </h1> */}
-            <h1 className="absolute  pl-12 text-light-green md:text-6xl top-8 font-bold p-6 xs:text-[26px] xs:top-2 xs:pl-3 sm:text-[40px] animation1 animation2  ">
+          <div className="max-w-[100%]">
+            <h1 className=" absolute  pl-12 text-light-green md:text-6xl top-8 font-bold p-6 xs:text-[26px] xs:top-2 xs:pl-3 sm:text-[40px] animation1 animation2 ">
               Welcome To
             </h1>
-            <h1 className="absolute pt-10 pl-12 text-light-green md:text-6xl top-20 font-bold p-8 xs:text-[26px] xs:top-7 xs:pl-3 sm:text-[40px] animation1 animation2">
+            <h1 className=" absolute pt-10 pl-12 text-light-green md:text-6xl top-20 font-bold p-8 xs:text-[26px] xs:top-7 xs:pl-3 sm:text-[40px] animation1 animation2">
               Renu Jagdish Diagnostic
             </h1>
             <h1 className="absolute pt-10 sm:text-[40px] pl-12 text-light-green md:text-6xl top-36 font-bold p-6 xs:text-[26px] xs:top-14 xs:pl-3 animation1 animation2">
