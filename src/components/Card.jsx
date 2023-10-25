@@ -12,19 +12,19 @@ export default function Card() {
             Orthodeadic Specialist
           </h1>
           <h4 className="text-[30px] font-normal xs:text-[20px] xs:pl-4 text-slate-600">
-          The best Ortho hospital in Pithoragarh
+            The best Ortho hospital in Pithoragarh
           </h4>
         </div>
         <div className=" items-center py-[60px]">
-          <div className=" grid  gap-[75px] justify-center flex-wrap  xs:flex-col max-w-screen-2xl  md:flex">
-            <div className="  shadow-md hover:scale-105 transition-transform duration-700 ease-in-out transform w-[400px]">
+          <div className=" grid   justify-center  xs:flex-col md:flex sm:gap-[30px] lg:items-center xl:items-center gap-[75px] 2xl:items-center w-full space-x-6 ">
+            <div className="  shadow-md hover:scale-105 transition-transform duration-700 ease-in-out transform sm:w-[350px] justify-center">
               <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center justify-center">
-                <div className=" rounded-xl shadow-gray-70">
+                <div className=" rounded-xl shadow-gray-70 flex justify-center">
                   <img
                     src={Renu}
                     alt="dr.renu"
                     height="160px"
-                    width="340px"
+                    width="300px"
                     className="rounded-xl shadow-xl h-[287px]"
                   />
                 </div>
@@ -42,14 +42,14 @@ export default function Card() {
               </div>
             </div>
 
-            <div className="shadow-md hover:scale-105 transition-transform duration-700 ease-in-out transform w-[400px] ">
+            <div className="shadow-md hover:scale-105 transition-transform duration-700 ease-in-out transform sm:w-[350px] ">
               <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center justify-center">
                 <div className="rounded-xl flex justify-center">
                   <img
                     src={Hosp}
                     alt="hospital "
                     height="300px"
-                    width="340px"
+                    width="300px"
                     className="rounded-xl shadow-xl h-[287px]"
                   />
                 </div>
@@ -60,7 +60,7 @@ export default function Card() {
                     </p>
                     <p className="text-[16px] font-medium text-slate-600">
                       RJ Ortho Hospital is an Orthopaedic Super Speciality
-                      hospital 
+                      hospital
                     </p>
                   </p>
                 </div>
@@ -68,13 +68,13 @@ export default function Card() {
             </div>
 
             <div className="shadow-md hover:scale-105 transition-transform duration-700 ease-in-out transform  w-[400px]">
-              <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center justify-center">
+              <div className="shadow-xl rounded-xl h-[400px] w-auto flex flex-col items-center justify-center">
                 <div className=" rounded-xl flex items-center justify-center">
                   <img
                     src={Jagdish}
                     alt="dr.jagdish"
                     height="150px"
-                    width="340px"
+                    width="auto"
                     className="rounded-xl h-[287px]"
                   />
                 </div>

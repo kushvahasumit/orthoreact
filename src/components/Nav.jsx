@@ -98,7 +98,7 @@ export default function Nav() {
                   Home
                 </Link>
               </li>
-              <li className="mx-10 pl-10 text-2xl relative p-1 text-slate-600 xs:bg-slate-200 xs:rounded-lg sm:mx-0 group">
+              <li className="mx-10 pl-10 text-2xl relative  text-slate-600 xs:bg-slate-200 xs:rounded-lg sm:mx-0 group">
                 <p className=" rounded-lg hover:bg-indigo-300 duration-500 p-1 cursor-pointer">
                   Orthopaedic Specialties
                 </p>

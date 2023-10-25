@@ -126,7 +126,7 @@ table button{
   
   @keyframes animated-text{
     from{width:0;}
-    to{width: 770px;}
+    to{width: auto;}
   }
   
   /* cursor animations */
@@ -171,4 +171,14 @@ table button{
     50% { 
         transform: translateX(-300px);  
       }
+}
+
+@media(max-width: 450px){
+   .marquee-container{
+       width: 250%;
+       padding-top: 30px;
+   }
+   
+
+     
 }
