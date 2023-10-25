@@ -8,17 +8,17 @@ export default function Card() {
     <>
       <section>
         <div className="flex flex-col items-center justify-center mb-[5px]">
-          <h1 className="text-[70px] font-bold xs:text-[30px] text-slate-600 py-[10px]">
+          <h1 className="text-[30px] sm:text-[75px] font-bold xs:text-[30px] text-slate-600 py-[10px]">
             Orthodeadic Specialist
           </h1>
           <h4 className="text-[30px] font-normal xs:text-[20px] xs:pl-4 text-slate-600">
-            The best Ortho hospital in Pithoragarh
+            The Best Ortho hospital in Pithoragarh
           </h4>
         </div>
         <div className=" items-center py-[60px]">
-          <div className=" grid justify-center  xs:flex-col md:flex sm:gap-[30px] lg:items-center xl:items-center gap-[75px] 2xl:items-center w-full space-x-6 justify-items-center">
+          <div className=" grid justify-center  xs:flex-col md:flex sm:gap-[70px] lg:justify-items-center xl:items-center gap-[75px] 2xl:items-center w-full space-x-6 justify-items-center">
             <div className=" hover:scale-105 transition-transform duration-700 ease-in-out transform sm:w-[320px]">
-              <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center border border-red-200 w-[300px] sm:w-[350px] md:w-[350px] lg:w-[350px]">
+              <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center border border-red-100 w-[300px] sm:w-[350px] md:w-[350px] lg:w-[350px]">
                 <div className=" rounded-xl shadow-gray-70 flex justify-center">
                   <img
                     src={Renu}
@@ -43,7 +43,7 @@ export default function Card() {
             </div>
 
             <div className=" hover:scale-105 transition-transform duration-700 ease-in-out transform sm:w-[340px] ">
-              <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center justify-center border border-red-200 w-[300px] sm:w-[350px] md:w-[350px] lg:w-[350px]">
+              <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center justify-center border border-red-100 w-[300px] sm:w-[350px] md:w-[350px] lg:w-[350px]">
                 <div className="rounded-xl flex justify-center">
                   <img
                     src={Hosp}
@@ -68,7 +68,7 @@ export default function Card() {
             </div>
 
             <div className="hover:scale-105 transition-transform duration-700 ease-in-out transform sm:w-[350px]">
-              <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center justify-center w-[300px] border border-red-200 sm:w-[350px] md:w-[350px] lg:w-[350px]">
+              <div className="shadow-xl rounded-xl h-[400px] flex flex-col items-center justify-center w-[300px] border border-red-100 sm:w-[350px] md:w-[350px] lg:w-[350px]">
                 <div className=" rounded-xl flex items-center justify-center">
                   <img
                     src={Jagdish}
