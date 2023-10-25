@@ -133,6 +133,7 @@ table button{
   
   .float {
     margin-top: 25px;
+    height: 170px;
 }
 
 .marquee-container {
@@ -175,10 +176,13 @@ table button{
 
 @media(max-width: 450px){
    .marquee-container{
-       width: 250%;
+       width: 300%;
        padding-top: 30px;
    }
    
+   .float{
+    height: 120px;
+   }
 
      
 }
