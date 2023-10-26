@@ -3,100 +3,7 @@ import React from 'react'
 export default function Appointment() {
     return (
       <>
-        {/* <div className="flex justify-center ">
-          <div className="flex xs:grid">
-            <section className=' w-screen'>
-              <div className="flex text-center items-center justify-center py-[20px] font-bold text-[40px]">
-                <h1>Book Appointment</h1>
-              </div>
-              <div className="flex justify-center">
-                <form
-                  onsubmit=""
-                  autocomplete="off"
-                  className="bg-slate-300 mx-3  py-5 rounded-md w-[700px] shadow-2xl"
-                >
-                  <div className="">
-                    <label for="name" className=" text-lg md:text-2xl ">
-                      Name:
-                    </label>
-                    <input type="text" name="fullName" id="fullName" />
-                  </div>
-                  <div className="">
-                    <label for="age" className=" text-lg md:text-2xl ">
-                      Age:
-                    </label>
-                    <input type="number" name="age" id="age" />
-                  </div>
-                  <div className="">
-                    <label for="gender" className=" text-lg md:text-2xl ">
-                      Gender:
-                    </label>
-                    <input
-                      type="radio"
-                      name="gender"
-                      value="male"
-                      id="gender"
-                    />
-                    Male
-                    <input
-                      type="radio"
-                      name="gender"
-                      value="female"
-                      id="gender"
-                    />
-                    Female
-                    <input
-                      type="radio"
-                      name="gender"
-                      value="other"
-                      id="gender"
-                    />
-                    Other
-                    <div className="">
-                      <label for="phone" className=" text-lg md:text-2xl ">
-                        Phone:
-                      </label>
-                      <input type="tel" name="phone" id="phone" />
-                    </div>
-                    <div className="">
-                      <label for="address" className=" text-lg md:text-2xl ">
-                        Address:{" "}
-                      </label>
-                      <input type="text" name="address" id="address" />
-                    </div>
-                    <div className="">
-                      <label
-                        for="appointment"
-                        className=" text-lg md:text-2xl "
-                      >
-                        Appointment:
-                      </label>
-                      <select
-                        id="department"
-                        name="department"
-                        className="p-2 text-lg font-semibold pl-4 ml-2 px-7 md:w-auto rounded-lg border-2"
-                        required
-                      >
-                        <option value="cardiology">Cardiology</option>
-                        <option value="neurology">Neurology</option>
-                        <option value="orthopedics">Orthopedics</option>
-                      </select>
-                    </div>
-                    <button
-                      type="submit"
-                      value="submit"
-                      className=" text-lg md:text-2xl p-2 bg-green-600 rounded-lg border-2"
-                    >
-                      Add entry
-                    </button>
-                    <div />
-                  </div>
-                </form>
-              </div>
-            </section>
-          </div>
-        </div> */}
-        <div className=" w-full h-[650px] ">
+        {/* <div className=" w-full h-[700px]">
           <div className="text-[40px] text-center py-[20px]">
             <h1 className="text-slate-600">Appointment Form</h1>
           </div>
@@ -181,12 +88,51 @@ export default function Appointment() {
                   Other
                 </div>
 
-                <div className="pt-[10px] flex justify-start pl-[130px]">
+                <div className="pt-[10px] flex justify-start sm:pl-[130px]">
                   <button className="bg-indigo-500 text-[20px] px-[100px] py-[10px] rounded-xl hover:bg-slate-200 ">
                     Log in
                   </button>
                 </div>
               </form>
+            </div>
+          </div>
+        </div> */}
+        <div className="text-center py-[25px]">
+          <h1 className="text-[30px] sm:text-[45px] text-slate-500 font-bold">
+            Appointment Form
+          </h1>
+        </div>
+        <div className="flex items-center justify-center sm:w-full lg:w-full ">
+          <div class="px-[10px] w-[600px] shadow-xl py-[30px] rounded-lg">
+            <div className="px-[10px]">
+              <span class="uppercase text-sm text-gray-600 font-bold">
+                Full Name
+              </span>
+              <input
+                class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                type="text"
+                placeholder=""
+              />
+            </div>
+            <div class="mt-8 px-[10px]">
+              <span class="uppercase text-sm text-gray-600 font-bold">
+                Email
+              </span>
+              <input
+                class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                type="text"
+              />
+            </div>
+            <div class="mt-8 px-[10px]">
+              <span class="uppercase text-sm text-gray-600 font-bold">
+                Message
+              </span>
+              <textarea class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+            </div>
+            <div className="mt-8 ml-[-50px] px-[10px]">
+              <button className="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-[200px] focus:outline-none focus:shadow-outline hover:bg-indigo-300">
+                Submit
+              </button>
             </div>
           </div>
         </div>
