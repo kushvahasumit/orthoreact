@@ -33,7 +33,7 @@ export default function Footer() {
                   joint specialization.
                 </div>
               </div>
-              <div className="pl-8 xs:hidden">
+              <div className="pl-5 xs:hidden">
                 <h5 className="text-2xl pt-4">Useful links</h5>
                 <ul className="grid">
                   <li className="pt-2 hover:underline-offset-4 hover:text-xl">
@@ -55,7 +55,7 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className="pl-10 xs:pl-10">
+              <div className="pl-8 xs:pl-10">
                 <h5 className="text-2xl pt-4">Reach us</h5>
 
                 <div>
