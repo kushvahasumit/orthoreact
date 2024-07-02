@@ -5,7 +5,6 @@ import emailLogo from "../logos/e-mail icon.png";
 import instaLogo from "../logos/insta logo.png";
 import facebookLogo from "../logos/facebook logo.png";
 import xLogo from "../logos/twitter logo.png";
-import menu from "../logos/menu logo.png";
 import { Link } from "react-router-dom";
 
 export default function Nav() {
@@ -91,7 +90,10 @@ export default function Nav() {
         </div>
 
         <div class="nav-links">
-          <a className="    text-2xl rounded-lg  p-1 text-slate-600 xs:bg-slate-200 xs:rounded-lg sm:mx-0 ">
+          <a
+            className="    text-2xl rounded-lg  p-1 text-slate-600 xs:bg-slate-200 xs:rounded-lg sm:mx-0 "
+            href=" "
+          >
             <Link
               to="/"
               className="roundedhover:bg-blue-100 rounded-md duration-500 p-1 hover:bg-indigo-300 "
@@ -99,7 +101,10 @@ export default function Nav() {
               Home
             </Link>
           </a>
-          <a className="   marker: text-2xl relative  text-slate-600 xs:bg-slate-200 xs:rounded-lg sm:mx-0 group">
+          <a
+            className="   marker: text-2xl relative  text-slate-600 xs:bg-slate-200 xs:rounded-lg sm:mx-0 group"
+            href=" "
+          >
             <p className=" rounded-lg hover:bg-indigo-300 duration-500 p-1 cursor-pointer">
               Orthopaedic Specialties
             </p>
@@ -140,7 +145,10 @@ export default function Nav() {
               </li>
             </ul>
           </a>
-          <a className="    text-2xl    xs:bg-slate-200 relative xs:rounded-lg sm:mx-0 group">
+          <a
+            className="    text-2xl    xs:bg-slate-200 relative xs:rounded-lg sm:mx-0 group"
+            href=" "
+          >
             <p className="rounded-lg over:bg-blue-100 hover:bg-indigo-300 p-1  duration-500 cursor-pointer">
               Dr Profile
             </p>
@@ -163,7 +171,10 @@ export default function Nav() {
               </li>
             </ul>
           </a>
-          <a className="    text-2xl  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0 ">
+          <a
+            className="    text-2xl  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0 "
+            href=" "
+          >
             <Link
               to="/gallery"
               className="rounded-lg hover:bg-indigo-300 p-1 duration-500"
@@ -171,7 +182,10 @@ export default function Nav() {
               Gallery
             </Link>
           </a>
-          <a className="  text-2xl  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0">
+          <a
+            className="  text-2xl  p-1 xs:bg-slate-200 xs:rounded-lg sm:mx-0"
+            href=" "
+          >
             <Link
               to="/contact"
               className="rounded-lg hover:bg-indigo-300  p-1 duration-500"
@@ -179,7 +193,10 @@ export default function Nav() {
               Contact Us
             </Link>
           </a>
-          <a className="  text-2xl   p-1  xs:rounded-lg sm:mx-0 animate-pulse">
+          <a
+            className="  text-2xl   p-1  xs:rounded-lg sm:mx-0 animate-pulse"
+            href=" "
+          >
             <Link
               to="/appointment"
               className="rounded-lg  p-1 bg-indigo-300 px-3   duration-500"
